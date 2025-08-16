@@ -1,4 +1,4 @@
-﻿namespace ProgramUi
+﻿namespace ProgramUI
 {
     partial class MainForm
     {
