@@ -16,21 +16,5 @@ namespace ProgramUI
         {
             InitializeComponent();
         }
-
-        private void menuStrip2_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
-        {
-
-        }
-
-        private void pictureBox1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void MainForm_Load(object sender, EventArgs e)
-        {
-        
-        }
     }
 }
-
