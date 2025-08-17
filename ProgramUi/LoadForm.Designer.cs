@@ -107,7 +107,6 @@
             // 
             // btn_exit
             // 
-
             this.btn_exit.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_exit.BackColor = System.Drawing.Color.Transparent;
             this.btn_exit.BackgroundImage = global::ProgramUI.Properties.Resources.退出;
@@ -132,7 +131,6 @@
             // 
             // pictureBox1
             // 
-
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.Image = global::ProgramUI.Properties.Resources.logo;
             this.pictureBox1.Location = new System.Drawing.Point(2, 0);
@@ -173,7 +171,6 @@
             this.titleBar.TabIndex = 9;
             this.titleBar.Text = "uiPanel1";
             this.titleBar.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
-
             // 
             // LoadForm
             // 
