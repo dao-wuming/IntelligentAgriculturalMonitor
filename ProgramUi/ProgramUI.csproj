@@ -99,6 +99,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\去除图片水印.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FBDA56C528518A24E0EDF261B4F67623.png" />
     <None Include="Resources\loadbackImage.bmp" />
   </ItemGroup>
   <ItemGroup>
