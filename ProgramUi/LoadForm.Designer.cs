@@ -36,6 +36,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.uiLabel1 = new Sunny.UI.UILabel();
             this.titleBar = new Sunny.UI.UIPanel();
+            this.uiLabel2 = new Sunny.UI.UILabel();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -172,6 +173,19 @@
             this.titleBar.Text = "uiPanel1";
             this.titleBar.TextAlignment = System.Drawing.ContentAlignment.MiddleCenter;
             // 
+            // uiLabel2
+            // 
+            this.uiLabel2.BackColor = System.Drawing.Color.Transparent;
+            this.uiLabel2.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.uiLabel2.Font = new System.Drawing.Font("楷体", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.uiLabel2.ForeColor = System.Drawing.Color.LightGreen;
+            this.uiLabel2.Location = new System.Drawing.Point(312, 423);
+            this.uiLabel2.Name = "uiLabel2";
+            this.uiLabel2.Size = new System.Drawing.Size(100, 47);
+            this.uiLabel2.TabIndex = 8;
+            this.uiLabel2.Text = "注册账号";
+            this.uiLabel2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
             // LoadForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
@@ -181,6 +195,7 @@
             this.CausesValidation = false;
             this.ClientSize = new System.Drawing.Size(842, 540);
             this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.uiLabel2);
             this.Controls.Add(this.uiLabel1);
             this.Controls.Add(this.btn_exit);
             this.Controls.Add(this.uiButton1);
@@ -206,5 +221,6 @@
         private System.Windows.Forms.PictureBox pictureBox1;
         private Sunny.UI.UILabel uiLabel1;
         private Sunny.UI.UIPanel titleBar;
+        private Sunny.UI.UILabel uiLabel2;
     }
 }

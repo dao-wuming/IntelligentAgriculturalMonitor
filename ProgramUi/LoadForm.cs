@@ -64,6 +64,7 @@ namespace ProgramUI
                 {
                     MainForm main = new MainForm();
                     main.ShowDialog();
+                    this.Close();
                 }
             }
             catch (Exception ex)
