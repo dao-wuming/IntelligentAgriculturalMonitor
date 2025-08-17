@@ -59,5 +59,25 @@ namespace ProgramUI.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap FBDA56C528518A24E0EDF261B4F67623 {
+            get {
+                object obj = ResourceManager.GetObject("FBDA56C528518A24E0EDF261B4F67623", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 去除图片水印 {
+            get {
+                object obj = ResourceManager.GetObject("去除图片水印", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

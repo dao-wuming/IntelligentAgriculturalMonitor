@@ -66,14 +66,14 @@
             this.菜单ToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 32);
+            this.menuStrip1.Size = new System.Drawing.Size(800, 36);
             this.menuStrip1.TabIndex = 2;
             this.menuStrip1.Text = "menuStrip1";
             // 
             // 菜单ToolStripMenuItem
             // 
             this.菜单ToolStripMenuItem.Name = "菜单ToolStripMenuItem";
-            this.菜单ToolStripMenuItem.Size = new System.Drawing.Size(62, 28);
+            this.菜单ToolStripMenuItem.Size = new System.Drawing.Size(62, 30);
             this.菜单ToolStripMenuItem.Text = "菜单";
             // 
             // LoadForm
