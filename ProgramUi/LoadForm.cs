@@ -17,5 +17,15 @@ namespace ProgramUI
             InitializeComponent();
         }
 
+        private void LoadForm_Load(object sender, EventArgs e)
+        {
+            this.txt_username.SendToBack();
+            this.txt_password.SendToBack();
+        }
+
+        private void uiButton3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }

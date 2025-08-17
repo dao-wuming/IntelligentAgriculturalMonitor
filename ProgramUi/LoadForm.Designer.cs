@@ -29,22 +29,17 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.button1 = new System.Windows.Forms.Button();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(LoadForm));
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.contextMenuStrip2 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.菜单ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip1.SuspendLayout();
+            this.txt_username = new Sunny.UI.UITextBox();
+            this.txt_password = new Sunny.UI.UITextBox();
+            this.uiButton1 = new Sunny.UI.UIButton();
+            this.btn_exit = new Sunny.UI.UIButton();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.uiLabel1 = new Sunny.UI.UILabel();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(230, 305);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(293, 81);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "登录";
-            this.button1.UseVisualStyleBackColor = true;
             // 
             // contextMenuStrip1
             // 
@@ -58,47 +53,147 @@
             this.contextMenuStrip2.Name = "contextMenuStrip2";
             this.contextMenuStrip2.Size = new System.Drawing.Size(61, 4);
             // 
-            // menuStrip1
+            // txt_username
             // 
-            this.menuStrip1.GripMargin = new System.Windows.Forms.Padding(2, 2, 0, 2);
-            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(24, 24);
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.菜单ToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 32);
-            this.menuStrip1.TabIndex = 2;
-            this.menuStrip1.Text = "menuStrip1";
+            this.txt_username.BackColor = System.Drawing.Color.Transparent;
+            this.txt_username.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_username.FillColor = System.Drawing.SystemColors.Window;
+            this.txt_username.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.txt_username.Icon = global::ProgramUI.Properties.Resources.农民;
+            this.txt_username.Location = new System.Drawing.Point(61, 168);
+            this.txt_username.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txt_username.MinimumSize = new System.Drawing.Size(1, 16);
+            this.txt_username.Name = "txt_username";
+            this.txt_username.Padding = new System.Windows.Forms.Padding(5);
+            this.txt_username.RectColor = System.Drawing.Color.Transparent;
+            this.txt_username.ShowText = false;
+            this.txt_username.Size = new System.Drawing.Size(305, 32);
+            this.txt_username.TabIndex = 2;
+            this.txt_username.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.txt_username.Watermark = "";
             // 
-            // 菜单ToolStripMenuItem
+            // txt_password
             // 
-            this.菜单ToolStripMenuItem.Name = "菜单ToolStripMenuItem";
-            this.菜单ToolStripMenuItem.Size = new System.Drawing.Size(62, 28);
-            this.菜单ToolStripMenuItem.Text = "菜单";
+            this.txt_password.BackColor = System.Drawing.Color.Transparent;
+            this.txt_password.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.txt_password.FillColor = System.Drawing.SystemColors.Window;
+            this.txt_password.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.txt_password.Icon = global::ProgramUI.Properties.Resources.农业_密码;
+            this.txt_password.Location = new System.Drawing.Point(61, 227);
+            this.txt_password.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
+            this.txt_password.MinimumSize = new System.Drawing.Size(1, 16);
+            this.txt_password.Name = "txt_password";
+            this.txt_password.Padding = new System.Windows.Forms.Padding(5);
+            this.txt_password.PasswordChar = '*';
+            this.txt_password.RectColor = System.Drawing.Color.Transparent;
+            this.txt_password.ShowText = false;
+            this.txt_password.Size = new System.Drawing.Size(305, 32);
+            this.txt_password.TabIndex = 3;
+            this.txt_password.TextAlignment = System.Drawing.ContentAlignment.MiddleLeft;
+            this.txt_password.Watermark = "";
+            // 
+            // uiButton1
+            // 
+            this.uiButton1.BackColor = System.Drawing.Color.Transparent;
+            this.uiButton1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.uiButton1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.uiButton1.FillColor = System.Drawing.Color.Green;
+            this.uiButton1.FillColor2 = System.Drawing.SystemColors.MenuHighlight;
+            this.uiButton1.FillColorGradient = true;
+            this.uiButton1.FillColorGradientDirection = System.Windows.Forms.FlowDirection.LeftToRight;
+            this.uiButton1.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.uiButton1.Location = new System.Drawing.Point(61, 296);
+            this.uiButton1.MinimumSize = new System.Drawing.Size(1, 1);
+            this.uiButton1.Name = "uiButton1";
+            this.uiButton1.Radius = 35;
+            this.uiButton1.RectColor = System.Drawing.Color.Transparent;
+            this.uiButton1.RectDisableColor = System.Drawing.Color.Transparent;
+            this.uiButton1.RectHoverColor = System.Drawing.Color.Black;
+            this.uiButton1.RectPressColor = System.Drawing.Color.Transparent;
+            this.uiButton1.RectSelectedColor = System.Drawing.Color.Transparent;
+            this.uiButton1.ShowFocusLine = true;
+            this.uiButton1.Size = new System.Drawing.Size(305, 35);
+            this.uiButton1.TabIndex = 4;
+            this.uiButton1.Text = "登录";
+            this.uiButton1.TipsFont = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            // 
+            // btn_exit
+            // 
+            this.btn_exit.BackColor = System.Drawing.Color.Transparent;
+            this.btn_exit.BackgroundImage = global::ProgramUI.Properties.Resources.退出;
+            this.btn_exit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btn_exit.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_exit.FillColor = System.Drawing.Color.Transparent;
+            this.btn_exit.Font = new System.Drawing.Font("宋体", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_exit.Location = new System.Drawing.Point(714, 3);
+            this.btn_exit.MinimumSize = new System.Drawing.Size(1, 1);
+            this.btn_exit.Name = "btn_exit";
+            this.btn_exit.RectColor = System.Drawing.Color.Transparent;
+            this.btn_exit.RectDisableColor = System.Drawing.Color.Transparent;
+            this.btn_exit.RectHoverColor = System.Drawing.Color.Transparent;
+            this.btn_exit.RectPressColor = System.Drawing.Color.Transparent;
+            this.btn_exit.RectSelectedColor = System.Drawing.Color.Transparent;
+            this.btn_exit.Size = new System.Drawing.Size(34, 36);
+            this.btn_exit.TabIndex = 6;
+            this.btn_exit.TipsColor = System.Drawing.Color.Transparent;
+            this.btn_exit.TipsFont = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.btn_exit.Click += new System.EventHandler(this.uiButton3_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBox1.Image = global::ProgramUI.Properties.Resources.logo;
+            this.pictureBox1.Location = new System.Drawing.Point(2, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(41, 39);
+            this.pictureBox1.TabIndex = 7;
+            this.pictureBox1.TabStop = false;
+            // 
+            // uiLabel1
+            // 
+            this.uiLabel1.BackColor = System.Drawing.Color.Transparent;
+            this.uiLabel1.Font = new System.Drawing.Font("华文行楷", 13.8F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(134)));
+            this.uiLabel1.ForeColor = System.Drawing.Color.Lime;
+            this.uiLabel1.Location = new System.Drawing.Point(37, 1);
+            this.uiLabel1.Name = "uiLabel1";
+            this.uiLabel1.Size = new System.Drawing.Size(150, 39);
+            this.uiLabel1.TabIndex = 8;
+            this.uiLabel1.Text = "振博爱智农";
+            this.uiLabel1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // LoadForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.menuStrip1);
-            this.Controls.Add(this.button1);
-            this.MainMenuStrip = this.menuStrip1;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.CausesValidation = false;
+            this.ClientSize = new System.Drawing.Size(748, 450);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.uiLabel1);
+            this.Controls.Add(this.btn_exit);
+            this.Controls.Add(this.uiButton1);
+            this.Controls.Add(this.txt_password);
+            this.Controls.Add(this.txt_username);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "LoadForm";
-            this.Text = "LoadForm";
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "智能农业监控软件";
+            this.Load += new System.EventHandler(this.LoadForm_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip2;
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem 菜单ToolStripMenuItem;
+        private Sunny.UI.UITextBox txt_username;
+        private Sunny.UI.UITextBox txt_password;
+        private Sunny.UI.UIButton uiButton1;
+        private Sunny.UI.UIButton btn_exit;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private Sunny.UI.UILabel uiLabel1;
     }
 }
