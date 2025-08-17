@@ -123,5 +123,19 @@
   </data>
   <data name="FBDA56C528518A24E0EDF261B4F67623" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\FBDA56C528518A24E0EDF261B4F67623.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="农民" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\农民.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loadbackImage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\loadbackImage.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="退出" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\退出.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="农业-密码" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\农业-密码.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

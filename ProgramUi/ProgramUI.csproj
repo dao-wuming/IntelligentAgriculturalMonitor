@@ -103,6 +103,35 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\FBDA56C528518A24E0EDF261B4F67623.png" />
+    <None Include="Resources\loadbackImage.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cd2819de709bb3e123fda58e57aef88c.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loadbackImage.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\农民.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\农业-密码.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\退出.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Entity\Entity.csproj">
+      <Project>{8d0522a1-80a5-419d-94b0-d50b42b761da}</Project>
+      <Name>Entity</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ProgramBLL\ProgramBLL.csproj">
+      <Project>{de4a4c9d-f7bd-4a37-8702-0c7bfa035ea3}</Project>
+      <Name>ProgramBLL</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

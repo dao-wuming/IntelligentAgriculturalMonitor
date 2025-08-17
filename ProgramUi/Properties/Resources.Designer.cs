@@ -66,6 +66,9 @@ namespace ProgramUI.Properties {
         internal static System.Drawing.Bitmap FBDA56C528518A24E0EDF261B4F67623 {
             get {
                 object obj = ResourceManager.GetObject("FBDA56C528518A24E0EDF261B4F67623", resourceCulture);
+        internal static System.Drawing.Bitmap loadbackImage {
+            get {
+                object obj = ResourceManager.GetObject("loadbackImage", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -76,6 +79,39 @@ namespace ProgramUI.Properties {
         internal static System.Drawing.Bitmap 去除图片水印 {
             get {
                 object obj = ResourceManager.GetObject("去除图片水印", resourceCulture);
+        internal static System.Drawing.Bitmap logo {
+            get {
+                object obj = ResourceManager.GetObject("logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 农业_密码 {
+            get {
+                object obj = ResourceManager.GetObject("农业-密码", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 农民 {
+            get {
+                object obj = ResourceManager.GetObject("农民", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap 退出 {
+            get {
+                object obj = ResourceManager.GetObject("退出", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
